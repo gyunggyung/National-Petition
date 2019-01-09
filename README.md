@@ -1,5 +1,5 @@
-<h1 align="center"> 청와대 국민청원 및 제안 목록으로부터 </h1>
-<h1 align="center"> 국민의 생각 알아보기 </h1>
+<h1 align="center"> 청와대 국민청원 및 제안 목록으로부터  
+국민의 생각 알아보기 </h1>
 
 ![COM LAB LOGO](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546608400699_13.png)
 
@@ -21,7 +21,7 @@
 || https://www.youtube.com/watch?v=iqaCqvxweRY |
 
 ## 데이터
-https://www.dropbox.com/s/5kkiq9pbuy92xl4/petition_data_all.csv?dl=0
+[petition_data_all.csv](https://www.dropbox.com/s/4q5neb9ngdhfg8y/petition_data_all.csv?dl=0)
 
 ## 분류별 청원 숫자
 
@@ -98,8 +98,7 @@ all  :  371,230
 
 국민청원의 데이터를 분석합니다.
 
-https://trello.com/c/cjlrf379
-
+https://github.com/newhiwoong/National-Petition/tree/master/Data
 
 
 ## 분야별 청원의 추천 그래프 화 
