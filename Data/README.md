@@ -6,7 +6,7 @@
 [petition_data_all.csv](https://www.dropbox.com/s/4q5neb9ngdhfg8y/petition_data_all.csv?dl=0)
 
 ## Crawler
-[code]()
+[code](https://github.com/newhiwoong/National-Petition/blob/master/Data/Crawling.ipynb)
 
  국민청원 데이터를 분석하기 위해 먼저 크롤링을 진행합니다.
 
@@ -37,7 +37,7 @@ csvFile.close()
 으로 크롤링을 진행합니다.
 
 ## Filtering
-[code]()
+[code](https://github.com/newhiwoong/National-Petition/blob/master/Data/Filtering.ipynb)
 
  필터링을 하기 전에 count 즉 참여인원은 int형이 아닌 문자로 이뤄져 있습니다. 이를 몇 명이 참여를 했는지 알아보기 위해서 필터링을 진행합니다.
 
