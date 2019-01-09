@@ -15,10 +15,10 @@
 
 | 뉴스 | 링크   |
 | ------ | -------------------------------------------------------------------------------------------- |
-| SBS 뉴스 | https://news.sbs.co.kr/news/endPage.do?news_id=N1005076738&plink=THUMB&cooper=SBSNEWSPROGRAM |
-| KBS 뉴스 | https://www.youtube.com/watch?v=EeMZ7IsdQjg |
-|| https://www.youtube.com/watch?v=_JH8CizfcAY|
-|| https://www.youtube.com/watch?v=iqaCqvxweRY |
+| SBS 뉴스 | ['청와대 국민청원'을 파헤치다](https://news.sbs.co.kr/news/endPage.do?news_id=N1005076738&plink=THUMB&cooper=SBSNEWSPROGRAM) |
+| KBS 뉴스 | [달라지는 국민청원…“공개 요건 강화”](https://www.youtube.com/watch?v=EeMZ7IsdQjg) |
+|| [‘무분별 확산’에 마녀사냥까지…](https://www.youtube.com/watch?v=_JH8CizfcAY)|
+|| [청원 500일 평가는?](https://www.youtube.com/watch?v=iqaCqvxweRY) |
 
 ## 데이터
 [petition_data_all.csv](https://www.dropbox.com/s/4q5neb9ngdhfg8y/petition_data_all.csv?dl=0)
@@ -78,7 +78,7 @@ all  :  371,230
 | Time   | 2018-01-01-15:20|
 | URL| https://www1.president.go.kr/petitions/21 ~ https://www1.president.go.kr/petitions/484339 |
 | Size   | 371,230개 |
-| Code   | https://github.com/com-lab/National-Petition-Crawler   |
+| Code   | [Crawler](https://github.com/newhiwoong/National-Petition/blob/master/Data/Crawling.ipynb)   |
 | 하루 평균  | 739.50개|
 | 가장 많이 나온 날 | 2017-11-11  :  9,614개   |
 | 달 평균   | 19,538.42개 |
@@ -1270,11 +1270,11 @@ t_a = ["국민", "처벌", "대통령","청원","폐지"] #여러 추천에서 �
  
  이 모든 것이 연관되어 모자나 마스크 같은 패션들에 대한 중소기업의 특허를 대기업 측에서 침해해서 관련 소송들이 진행되고 한 가정이 피해를 봤던 것으로 예상됩니다.
  
-https://www1.president.go.kr/petitions/148724?page=5
+[LG유플러스(LG텔레콤) 기술 도용](https://www1.president.go.kr/petitions/148724?page=5)
 
-https://www1.president.go.kr/petitions/404973
+[(주)ㅁㅁ실업 ‘마스크 모자’ 표절](https://www1.president.go.kr/petitions/404973)
 
-https://www1.president.go.kr/petitions/459148
+[ㅁㅁㅁ홀딩스 민·형사 소송 위협](https://www1.president.go.kr/petitions/459148)
    
  해당 키워드들을 검색한 결과, 이 일이 실제로 일어나는 것으로 일어났던 일입니다. LG유플러스(당시 LG전자, LG정보통신, LG텔레콤)측에서 중소기업의 특허를 침해했다는 청원 그리고 패션 대기업들에서 모자 마스트 특허를 침해했다는 청원이 있습니다.
    
@@ -1321,11 +1321,11 @@ https://www1.president.go.kr/petitions/459148
  갑질의 경우 국민, 병원, 업체, 여성, 승무원, 치료, 의사, 피해자 등으로 병원 업체에서 의사가 치료를 가지고 갑질을 했거나 승무원이 갑질을 한 것인지 당한 것인지 그리고 어떠한 업체에서 갑질이 있었던 것으로 예상됩니다. 갑질과 직접적인 네트워크를 보면 병원, 승무원, 업체로 이 3가지 키워드에 어떠한 갑질이 있었다고 유추할 수 있습니다.
 
 
-https://www1.president.go.kr/petitions/454533
+[제주대학교병원 H교수 상습폭행](https://www1.president.go.kr/petitions/454533)
 
-https://www1.president.go.kr/petitions/196894
+[대한항공 조현민 전무의 차청업체에 갑질](https://www1.president.go.kr/petitions/196894)
 
-https://www1.president.go.kr/petitions/269098
+[대한항공 승무원 인턴제도 갑질](https://www1.president.go.kr/petitions/269098)
 
 
  그리고 실제로 위에 대기업 키워드와 같이 병원에서 교수 의사의 갑질, 조현민 전무가 하청업체들에게 한 갑질, 항공사의 승무원 인턴제도 갑질 등 위에 관련된 키워드들의 갑질이 실제로 발생했습니다. 이를 통해 네트워크, 워드클라우드, 탑 키워드 분석에 대한 중요성을 더욱 증명할 수 있다고 생각합니다. 실제로 30만 개가 넘어가는 청원을 전부 읽기에는 무리가 있으나 관심 있는 키워드를 가지고 네트워크, 워드클라우드, 탑 키워드 분석을 통해서 짧으면서 쉽게 국민들이 생각하는 문제들을 알 수 있습니다.
@@ -1348,7 +1348,7 @@ https://www1.president.go.kr/petitions/269098
  서민이 문제를 체감했을 때는 아주 심각한 문제가 발생한 것입니다. 제가 체감한 문제는 삼각김밥의 가격이 오른 것입니다. 이는 참으로 슬픈 일입니다. 약간 농담처럼 들릴지 모르겠습니다. 하지만 이는 심각한 문제입니다. 국민이 어떤 문제를 직접적으로 인식하고 이야기하는 것은 큰 문제입니다. 하지만 22살에 대학교 1학년인 힘이 없는 저의 목소리는 국민의 대통령, 소통하겠다는 현 정부에게 닿을 수 없습니다.
 
 
-http://www.asiae.co.kr/news/view.htm?idxno=2018082509355045889
+["삼각김밥 너마저"…최저임금 여파, 올해 편의점 200개 상품 '껑충'](http://www.asiae.co.kr/news/view.htm?idxno=2018082509355045889)
 
 
   
@@ -1358,17 +1358,14 @@ http://www.asiae.co.kr/news/view.htm?idxno=2018082509355045889
   4차 산업혁명이라는 말을 우리나라는 참으로 좋아합니다. 하지만 재미있는 것은 그것이 뭔지도 모르고 합니다. 삼디 프린터와 오지를 이야기할 때 참으로 재미있다고 생각을 했습니다. 제대로 된 스타트업에는 큰 투자를 안 합니다. 더욱더 재미있는 점은 뭔가 보이는 스타트업을 만나지만 대부분 기술자를 만나지 않습니다. 그냥 그쪽에서 어느 정도 위치에 있는 사람들을 만나서 어떤 기술인지도 모른 채 감탄만 합니다. 미래를 위해서 무엇이 중요한지는 신경 쓰지 않습니다.
 
 
-https://news.joins.com/article/21461950
+[문재인, '삼디(3D)프린터' 이어 '오지(5G)' 발언](https://news.joins.com/article/21461950)
 
 
 ## 혁신  
  
   이 나라는 혁신이 불가능한 구조를 가지고 있습니다. 한국은 공무원이 지배하는 나라입니다. 미국, 프랑스, 캐나다 등을 본다면 혁신은 민간에서 나온다는 것을 쉽게 알 수 있습니다. 하지만 한국에서는 혁신적인 아이디어를 가진다고 해도 여러 규제로 인해서 창업조차 할 수 없습니다. 혹은 그 현실을 모른 채 탁상공론으로 만든 규제들을 다 맞춘 후에 창업할 수도 있습니다. 하지만 그것은 본래의 가치를 대부분을 잃거나 자신의 공로를 인정받을 수 없습니다. 대표적인 예시를 들겠습니다. 카카오뱅크는 참으로 잘 만든 제품입니다. 하지만 그 기술을 만든 카카오뱅크가 아닌 한국의 거대 은행들이 대부분 지분을 가지고 있습니다. 이름은 카카오뱅크지만 주인은 카카오가 아닙니다. 왜 그런지는 모두 알 것으로 생각합니다.
 
-https://news.joins.com/article/21913293
-
-
- 
+[[리셋 코리아] 카카오뱅크의 대주주가 카카오가 아닌 까닭은](https://news.joins.com/article/21913293)
 
 
 ## 군대
@@ -1376,7 +1373,7 @@ https://news.joins.com/article/21913293
   스티브 잡스나 빌 게이츠 그리고 마크 주커버그의 성공신화를 찬양하지만 절대로 그런 사람이 나올 수 없습니다. 위에서 한 말들과 군대 때문이죠. 나라는 스티브 잡스 같은 사람이 나와야 한다고 하지만 그런 사람이 나온다고 해도 군대로 보내버립니다. 2년 동안 가장 부패해있으며 소통이 불가능한 노예 생활을 하고 나옵니다. 20대의 2년이라는 시간 자체도 엄청난 가지가 있습니다. 거기다 그 2년을 끔찍한 생활을 합니다. 불합리한 것들을 봐도 이야기해서는 안 되고 바꿀 수도 없습니다. 무엇을 해도 아무것도 바뀌지 않는 곳입니다. 대만도 모병제를 하려고 하고 있습니다. 대만은 우리나라보다 더욱 심각한 군사적 대치가 있는 곳입니다. 이유는 무기가 첨단화 고도화할수록 장시간의 훈련과 적응을 거치 인력이 필요하기 때문입니다. 사회적으로는 저출산의 문제가 있고 말입니다. 그리고 전쟁이 난다면 모병제로 들어온 군인들은 아무런 도움이 안 됩니다. 전쟁이 난다면 아마 북한입니다. 북한은 핵을 가지고 있으며 전쟁이 난다면 핵전쟁이 날 것입니다. 즉 보병들은 아무런 가치도 없습니다. 그런데도 20대의 남성들을 한국에서 남자로 태어난 죄를 물어 노예로 사용하고 있습니다.
 
 
-http://www.hani.co.kr/arti/international/china/813735.html#csidxb431fe906b7b26c82fdd9488c977049
+[대만, 내년 완전모병제 가능할까](http://www.hani.co.kr/arti/international/china/813735.html#csidxb431fe906b7b26c82fdd9488c977049)
 
 
 
@@ -1384,7 +1381,7 @@ http://www.hani.co.kr/arti/international/china/813735.html#csidxb431fe906b7b26c8
  
   아직도 사회에서는 갑질이 만연히 일어나고 있습니다. 갑질을 신고한다고 해도 그것이 바뀌지 않거나 후에 나올 후폭풍이 더 강력할 것이라고 예상해서 이를 고발하지 못하는 경우가 더욱더 많습니다. 하지만 이러한 고민은 전혀 하지 않는 것으로 보입니다. 근무시간도 제대로 지켜지지 않습니다. 아르바이트에서도 갑질이 계속 일어나고 있습니다. 하지만 정부는 근본적인 고민을 전혀 하지 않습니다.
 
-http://www.nocutnews.co.kr/news/5083303
+[檢, '갑질' 폭행 혐의 한진家 이명희 또 기소](http://www.nocutnews.co.kr/news/5083303)
 
 
 
@@ -1393,7 +1390,7 @@ http://www.nocutnews.co.kr/news/5083303
 
  서민들은 현재 여러 불만을 이야기합니다. 특히 경제 쪽에서 말이죠. 공정경제가 무엇을 뜻하는 것인지 전혀 모르겠습니다. 하지만 현 정부는 박근혜 정권을 비판한 것과 달리 자신들의 문제점을 전혀 지적하지 않고 긍정적인 면만을 말합니다. 현 정부는 국가의 성장은 국민들이 같이 해야 하는 것이 중요하지, 기업이 빨리 성장하는 것이 더 중요하지 않다고 생각하고 싶습니다. GDP가 오르고 수출이 늘고 투자가 늘고 그런 것들은 물론 좋습니다. 하지만 서민들이 체감할 수 없는 것들입니다. 이전 정권들과 같이 기업들이 성장하고 서민들은 점점 살기 힘들어지고 있습니다.
 
-https://www1.president.go.kr/econo_num
+[숫자로 읽는 우리 경제](https://www1.president.go.kr/econo_num)
 
 
 ## 북한
@@ -1401,9 +1398,9 @@ https://www1.president.go.kr/econo_num
   북한과 좋은 관계를 유지하는 것에 대해서 매우 긍정적입니다. 하지만 큰 지원을 하는 것은 문제가 있습니다. 먼저 국가의 상태를 제대로 정비한 후에 해야 합니다. 한 예로 자국민이 최우선이 되어야 합니다. 하지만 지금은 어디가 자국민인지 모르는 거 같습니다. 북한에 KTX 추진하기 전에 먼저 국내 KTX를 점검하지 않고 KTX가 탈선하는 사건까지 나왔습니다. 지금은 자국에 집중해야 합니다.
 
 
-http://www.pressian.com/news/article.html?no=200825#09T0
+[정부硏 "서울평양 여객열차, 이어 남북 KTX 까지 추진"](http://www.pressian.com/news/article.html?no=200825#09T0)
 
-http://www.hani.co.kr/arti/society/society_general/873664.html
+[KTX 탈선 열차 탑승자 “승무원 아닌 군인 승객이 구조”](http://www.hani.co.kr/arti/society/society_general/873664.html)
 
 
 ## 미래
@@ -1417,6 +1414,6 @@ http://www.hani.co.kr/arti/society/society_general/873664.html
  
 ## Connect
 ```
-# github : https://github.com/newhiwoong
-# email  : newhiwoong@gmail.com
+github : https://github.com/newhiwoong
+email  : newhiwoong@gmail.com
 ```
