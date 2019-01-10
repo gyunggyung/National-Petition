@@ -15,13 +15,15 @@
 
 | 뉴스 | 링크   |
 | ------ | -------------------------------------------------------------------------------------------- |
-| SBS 뉴스 | ['청와대 국민청원'을 파헤치다](https://news.sbs.co.kr/news/endPage.do?news_id=N1005076738&plink=THUMB&cooper=SBSNEWSPROGRAM) |
-| KBS 뉴스 | [달라지는 국민청원…“공개 요건 강화”](https://www.youtube.com/watch?v=EeMZ7IsdQjg) |
-|| [‘무분별 확산’에 마녀사냥까지…](https://www.youtube.com/watch?v=_JH8CizfcAY)|
-|| [청원 500일 평가는?](https://www.youtube.com/watch?v=iqaCqvxweRY) |
+| SBS 뉴스 | [대한민국 핫이슈 집합소…'청와대 국민청원'을 파헤치다](https://news.sbs.co.kr/news/endPage.do?news_id=N1005076738&plink=THUMB&cooper=SBSNEWSPROGRAM) |
+| KBS 뉴스 | [달라지는 국민청원…“공개 요건 강화” / KBS뉴스(News)](https://www.youtube.com/watch?v=EeMZ7IsdQjg) |
+| KBS 뉴스 | [국민청원, 과장·왜곡 ‘무분별 확산’에 마녀사냥까지… / KBS뉴스(News)](https://www.youtube.com/watch?v=_JH8CizfcAY)|
+| KBS 뉴스 | [[앵커의 눈] “국민에 응답하라”…청원 500일 평가는? / KBS뉴스(News)](https://www.youtube.com/watch?v=iqaCqvxweRY) |
 
 ## 데이터
 [petition_data_all.csv](https://www.dropbox.com/s/4q5neb9ngdhfg8y/petition_data_all.csv?dl=0)
+
+[Crawler Code](https://github.com/newhiwoong/National-Petition/blob/master/Data/Crawling.ipynb)
 
 ## 분류별 청원 숫자
 
@@ -78,7 +80,7 @@ all  :  371,230
 | Time   | 2018-01-01-15:20|
 | URL| https://www1.president.go.kr/petitions/21 ~ https://www1.president.go.kr/petitions/484339 |
 | Size   | 371,230개 |
-| Code   | [Crawler](https://github.com/newhiwoong/National-Petition/blob/master/Data/Crawling.ipynb)   |
+| Code   | [Crawler Code](https://github.com/newhiwoong/National-Petition/blob/master/Data/Crawling.ipynb)   |
 | 하루 평균  | 739.50개|
 | 가장 많이 나온 날 | 2017-11-11  :  9,614개   |
 | 달 평균   | 19,538.42개 |
