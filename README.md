@@ -100,8 +100,7 @@ all  :  371,230
 
 국민청원의 데이터를 분석합니다.
 
-https://github.com/newhiwoong/National-Petition/tree/master/Data
-
+https://github.com/newhiwoong/National-Petition/tree/master/Data-Analysis
 
 ## 분야별 청원의 추천 그래프 화 
 
@@ -188,7 +187,7 @@ dfs
   이제 워드클라우드를 진행하여 국민들의 생각을 한눈에 알아봅시다.
  
 
-https://trello.com/c/x9F7xJEO
+https://github.com/newhiwoong/National-Petition/tree/master/Word-Cloud
 
 분야별 워드클라우드
 
@@ -270,8 +269,7 @@ df = df[df["conut"]>100]
  워드클라우드의 경우 단어들을 표시할 수 있지만 해석을 하기에는 무리가 있습니다. 예를 들어 “가짜”라는 키워드가 자주 등장을 했다면 워드클라우드에서는 크게 표시될 뿐입니다. 네트워크의 경우에는 어떤 키워들이 관련이 있다는 것을 쉽게 알아서 해석을 하기 쉽습니다.
 
 
-https://trello.com/c/n3uIGbBH
-
+https://github.com/newhiwoong/National-Petition/tree/master/Network
 
 ## 네트워크 제작 설명
 
@@ -555,7 +553,7 @@ find_dfs(df_t, "영종",10)
  국민청원 사이트를 만든 이유는 국민과 소통을 하기 위해서라고 생각합니다. 그리고 소통은 해당하는 청원에 정부가 답변하는 경우입니다. 정부에서 답변한 청원이 정부가 관심이 있는 청원이라고 생각할 수 있습니다. 물론 답변을 하는 조건으로 추천이 20만 번 이 된 청원을 한다는 원칙이 있습니다. 그래도 답변을 한 청원을 분석하여 정부의 관심사를 알아볼 수 있다고 생각합니다.
  
 
-https://trello.com/c/K9nvUuqR
+https://github.com/newhiwoong/National-Petition/tree/master/Government-Thinking
 
 ## 답변한 청원 정리
 
@@ -683,7 +681,7 @@ all :  68
 
  국민청원에는 동의하는 기능 즉 추천하는 기능이 있습니다. 청원글은 총 371,230개가 있습니다. 그런데 청원의 총 추천 수는 우리나라 인구수보다 많은 55,706,135이며 하루 평균 111,190여 번 이뤄집니다. 국민들의 관심을 알기 위해서는 어느 정도의 추천에 어느 키워드가 존재하는지를 알면 됩니다. 이제 추천 수를 보면서 국민의 관심사를 분석합니다.
 
-https://trello.com/c/DZUmlVUr
+https://github.com/newhiwoong/National-Petition/tree/master/National--Thinking
 
 ## 추천수 별 개수
 | 추천수  | 개수 |
@@ -905,6 +903,7 @@ t_a = ["국민", "처벌", "대통령","청원","폐지"] #여러 추천에서 �
 
  중요한 키워드들에 대해서 네트워크 제작, 워드클라우드를 진행하고 이에 대한 해석을 합니다. 이 과정을 통해서 중요한 키워들을 국민들이 어떻게 생각하고 있는지를 한 눈에 파악할 수 있습니다.
  
+ https://github.com/newhiwoong/National-Petition/tree/master/Important-Keywords
 
 ## 군대
 
