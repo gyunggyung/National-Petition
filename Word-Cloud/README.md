@@ -1,7 +1,9 @@
 # National-Petition-Word-Cloud
 국민청원 내용의 분류별 그리고 월별 워드클라우드를 진행합니다.
 
-[워드클라우드 제작](https://github.com/newhiwoong/National-Petition/blob/master/Word-Cloud/Word_Cloud.ipynb)
+[분야별 워드클라우드 제작](https://github.com/newhiwoong/National-Petition/blob/master/Word-Cloud/Word_Cloud.ipynb)
+
+[월별 워드클라우드 제작](https://github.com/newhiwoong/National-Petition/blob/master/Word-Cloud/Word_Cloud_month.ipynb)
 
 ## 환경 설정
 
