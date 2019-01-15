@@ -1,8 +1,12 @@
 # National-Petition-Data-Analysis
-국민청원 내용을 분석합니다.
+국민청원 내용을 분석합니다. participants.csv로 분석할 데이터를 제작하고 이를 기반으로 그래프를 제작합니다.
 
 ## 데이터 구분
 추천 수별로 청원을 찾아 그래프로 만들어서 국민들이 관심을 가지고 분야와 월을 찾습니다. 
+
+[분야별 participants.csv 제작](https://github.com/newhiwoong/National-Petition/blob/master/Data-Analysis/Data_Analysis.ipynb)
+
+[월별 participants.csv 제작](https://github.com/newhiwoong/National-Petition/blob/master/Data-Analysis/Data_Analysis_month.ipynb)
 
 ### 추천 수별로 분야별 청원 수 찾는 함수
 ```
@@ -29,6 +33,11 @@ for i in range(400000):
 
 ## 그래프 만들기 
  위에서 청원 만든 추천 수별 청원을 기반을 그래프 제작을 진행합니다.
+
+[분야별 그래프 제작](https://github.com/newhiwoong/National-Petition/blob/master/Data-Analysis/Create_a_graph.ipynb)
+
+[월별 그래프 제작](https://github.com/newhiwoong/National-Petition/blob/master/Data-Analysis/Create_a_graph_month.ipynb)
+
 
 ### 정규화
  시작 부분이 1이 되도록 정규화를 진행합니다. 
