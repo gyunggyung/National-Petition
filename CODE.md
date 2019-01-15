@@ -1,11 +1,10 @@
 <h1 align="center">  National-Petition </h1>
 <div align="center">
 
-![COM LAB LOGO](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546608400699_13.png)
-
+![COM LAB LOGO](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546608400699_13.png)  
 국민청원 사이트 분석에 설정과 코드에 대한 간단한 설명을 진행합니다.
-
 </div>
+
 ## Petition Data
 국민청원을 분석하기 위해 국민청원 사이트를 [크롤링한 데이터](https://www.dropbox.com/s/4q5neb9ngdhfg8y/petition_data_all.csv?dl=0)를 다운로드합니다.
 
