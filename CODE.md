@@ -18,9 +18,32 @@ git clone https://github.com/newhiwoong/National-Petition.git
 ## Folder structure
 ``` bash
   |-Data-Analysis                          #데이터 분석 및 그래프를 제작
-  |  |-images                              #필요한 이미지들
-  |  |  |-.jpg                             #여러 사진 파일들
-  |  |-Create_a_graph.ipynb                #그래프를 만드는 코드
+  |  |-images                              #분석 결과 이미지
+  |  |  |-graph_*.png                      #여러 그래프 이미지
+  |  |  |-num_*.JPG                        #추천수별 이미지
+  |  |-Create_a_graph.ipynb                #분야별 추천수 그래프를 만드는 코드
+  |  |-Create_a_graph_month.ipynb          #월별 추천수 그래프를 만드는 코드
+  |  |-Data_Analysis.ipynb                 #그래프에 필요한 분야별 CSV 파일 제작
+  |  |-Data_Analysis_month.ipynb           #그래프에 필요한 월별 CSV 파일 제작
+  |  |-README.md                           #데이터 분석 및 그래프 제작을 설명하는 문서
+  |  |-participants.csv                    #Data_Analysis에서 만든 CSV 파일
+  |  |-participants_index.csv              #Data_Analysis에서 만든 index가 추가 된 CSV 파일
+  |  |-participants_month.csv              #Data_Analysis_month에서 만든 CSV 파일
+  |  |-participants_month_index.csv        #Data_Analysis_month에서 만든 index가 추가 된 CSV 파일
+  |-Data                                   #국민 청원 데이터 크롤링
+  |  |-Crawling.ipynb                      #크롤링을 하는 코드
+  |  |-Filtering.ipynb                     #추천수를 str형에서 int형으로 변환하는 코드
+  |  |-README.md                           #국민 청원 데이터 크롤링을 설명하는 문서
+  |  |-briefing2.csv                       #브리핑한 청원을 크롤링한 CSV 파일
+  |-Find-similar                           #비슷한 청원 찾기
+  |  |-README.md                           #비슷한 청원 찾기를 설명하는 문서
+  |-Government-Thinking                    #정부의 생각 알아보기
+  |  |-img                                 #브리핑한 청원에 대한 워드클라우드 이미지들
+  |  |-Data_Analysis.ipynb                 #분야별 추천수 그래프를 만드는 코드
+  |  |-README.md                           #정부의 생각 알아보기를 설명하는 문서
+  |  |-Word_Cloud.ipynb                    #브리핑한 청원에 대한 워드클라우드를 만드는 코드
+  |  |-briefing.csv                        #브리핑한 청원을 크롤링한 CSV 파일
+  |  |-crawling.ipynb                      #브리핑한 청원을 크롤링하는 코드
   |....
   |-CODE.md                                #코드를 설명하는 md파일 (추후 README로 바꿀 예정)
 ```
@@ -50,6 +73,20 @@ pip install multiprocessing
 
 ### Todo list
 
-- [x] 국민청원 게시판 분석 내용 [DOCS](https://github.com/newhiwoong/National-Petition)
 - [x] 국민청원 게시판 크롤링 [CODE](https://github.com/newhiwoong/National-Petition/tree/master/Data)
+- [x] 국민청원 데이터 분석 [CODE](https://github.com/newhiwoong/National-Petition/tree/master/Data-Analysis)
+- [x] 국민청원 워드클라우드 제작 [CODE](https://github.com/newhiwoong/National-Petition/tree/master/Word-Cloud)
+- [x] 국민청원 네트워크 제작 [CODE](https://github.com/newhiwoong/National-Petition/tree/master/Network)
+- [x] 국민의 생각 알아보기 [CODE](https://github.com/newhiwoong/National-Petition/tree/master/National--Thinking)
+- [x] 정부의 생각 알아보기 [CODE](https://github.com/newhiwoong/National-Petition/tree/master/Government-Thinking)
+- [x] 국민청원 중요 키워드 분석 [CODE](https://github.com/newhiwoong/National-Petition/tree/master/Important-Keywords)
+- [x] 국민청원 게시판 분석 내용 [DOCS](https://github.com/newhiwoong/National-Petition)
 - [ ] 영어 키워드 찾기 
+- [ ] 청원 분류
+- [ ] 비슷한 청원 찾기
+- [ ] 강화된 네트워크 제작
+- [ ] 국민청원과 지지율의 상관관계 찾기
+- [ ] 국민의 뜻과 정부의 생각과 괴리 찾기
+- [ ] 통합 웹 사이트 제작
+- [ ] 해석하는 인공지능 제작
+- [ ] 루머 청원 찾기 
