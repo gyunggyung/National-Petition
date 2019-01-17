@@ -86,12 +86,12 @@ pip install multiprocessing
 - [x] 정부의 생각 알아보기 [💻](https://github.com/newhiwoong/National-Petition/tree/master/Government-Thinking)
 - [x] 국민청원 중요 키워드 분석 [💻](https://github.com/newhiwoong/National-Petition/tree/master/Important-Keywords)
 - [x] 국민청원 게시판 분석 내용 [📗](https://github.com/newhiwoong/National-Petition)
-- [ ] 영어 키워드 찾기 
-- [ ] 청원 분류
-- [ ] 비슷한 청원 찾기
-- [ ] 강화된 네트워크 제작
-- [ ] 국민청원과 지지율의 상관관계 찾기
-- [ ] 국민의 뜻과 정부의 생각과 괴리 찾기
-- [ ] 통합 웹 사이트 제작
-- [ ] 해석하는 인공지능 제작
-- [ ] 루머 청원 찾기 
+- [ ] 영어 키워드 찾기 🔨
+- [ ] 청원 분류 🔨
+- [ ] 비슷한 청원 찾기 🔨
+- [ ] 강화된 네트워크 제작 🔨
+- [ ] 국민청원과 지지율의 상관관계 찾기 🔒
+- [ ] 국민의 뜻과 정부의 생각과 괴리 찾기 🔒
+- [ ] 통합 웹 사이트 제작 🔒
+- [ ] 해석하는 인공지능 제작 🔒
+- [ ] 루머 청원 찾기 🔒
