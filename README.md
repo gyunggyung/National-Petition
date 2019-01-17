@@ -76,15 +76,15 @@ pip install multiprocessing
 ```
 
 ## Todo list
-청원 분석에 대해 제작할 코드(📘)와 문서(📗)들입니다.
+청원 분석에 대해 제작할 코드(💻)와 문서(📗)들입니다.
 
-- [x] 국민청원 게시판 크롤링 [📘](https://github.com/newhiwoong/National-Petition/tree/master/Data)
-- [x] 국민청원 데이터 분석 [📘](https://github.com/newhiwoong/National-Petition/tree/master/Data-Analysis)
-- [x] 국민청원 워드클라우드 제작 [📘](https://github.com/newhiwoong/National-Petition/tree/master/Word-Cloud)
-- [x] 국민청원 네트워크 제작 [📘](https://github.com/newhiwoong/National-Petition/tree/master/Network)
-- [x] 국민의 생각 알아보기 [📘](https://github.com/newhiwoong/National-Petition/tree/master/National--Thinking)
-- [x] 정부의 생각 알아보기 [📘](https://github.com/newhiwoong/National-Petition/tree/master/Government-Thinking)
-- [x] 국민청원 중요 키워드 분석 [📘](https://github.com/newhiwoong/National-Petition/tree/master/Important-Keywords)
+- [x] 국민청원 게시판 크롤링 [💻](https://github.com/newhiwoong/National-Petition/tree/master/Data)
+- [x] 국민청원 데이터 분석 [💻](https://github.com/newhiwoong/National-Petition/tree/master/Data-Analysis)
+- [x] 국민청원 워드클라우드 제작 [💻](https://github.com/newhiwoong/National-Petition/tree/master/Word-Cloud)
+- [x] 국민청원 네트워크 제작 [💻](https://github.com/newhiwoong/National-Petition/tree/master/Network)
+- [x] 국민의 생각 알아보기 [💻](https://github.com/newhiwoong/National-Petition/tree/master/National--Thinking)
+- [x] 정부의 생각 알아보기 [💻](https://github.com/newhiwoong/National-Petition/tree/master/Government-Thinking)
+- [x] 국민청원 중요 키워드 분석 [💻](https://github.com/newhiwoong/National-Petition/tree/master/Important-Keywords)
 - [x] 국민청원 게시판 분석 내용 [📗](https://github.com/newhiwoong/National-Petition)
 - [ ] 영어 키워드 찾기 
 - [ ] 청원 분류
