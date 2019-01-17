@@ -1,4 +1,4 @@
-# [청와대 국민청원 및 제안 목록으로부터 국민의 생각 알아보기](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md) 
+# [국민청원으로 국민의 생각 알아보기](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md) 
 
 ![COM LAB LOGO](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546608400699_13.png)
 
