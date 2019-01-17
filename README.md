@@ -1,11 +1,10 @@
 # National-Petition
 
-[![Stargazers](https://img.shields.io/badge/National--Petition-%E2%AD%90%EF%B8%8FStargazers-yellow.svg)](https://github.com/newhiwoong/National-Petition/stargazers)
-[![license](https://img.shields.io/badge/license-Apache-red.svg)](https://github.com/newhiwoong/National-Petition/blob/master/LICENSE)
+[![Stargazers](https://img.shields.io/badge/National--Petition-Stargazers-yellow.svg)](https://github.com/newhiwoong/National-Petition/stargazers)
+[![license](https://img.shields.io/badge/license-Apache%202.0-red.svg)](https://github.com/newhiwoong/National-Petition/blob/master/LICENSE)
+[![result](https://img.shields.io/badge/result-Report-blue.svg)](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)
 
 > 국민청원 및 제안 목록을 분석하여 국민의 생각을 알아보는 프로젝트
-
-#### *Follow the link for more information : [Report](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)*
 
 ## Introduction
 
