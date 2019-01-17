@@ -1,8 +1,9 @@
 <h1 align="center"> 청와대 국민청원 및 제안 목록으로부터 국민의 생각 알아보기 </h1>
 
 ![COM LAB LOGO](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546608400699_13.png)
-
-이 프로젝트의 1버전 결과물인 분석 보고서 : [국민청원 분석 보고서](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)
+<div align="center"> 
+**이 프로젝트의 1버전 결과물인 분석 보고서** : [국민청원 분석 보고서](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)
+</div>
 
  문재인 정부에서는 국민과의 소통을 통하여 국정에 반영하고자 청와대 홈페이지에 국민소통광장을 마련하였습니다. 국민소통광장의 ‘[국민청원 및 제안](https://www1.president.go.kr/petitions)’에서는 국민 누구나 청원을 올릴 수 있으며, 청와대로부터 답변을 받을 수 있습니다. 2019년 1월 1일 현재, 371,229개의 청원이 있으며, 본 연구에서는 웹 크롤링(web crawling)을 통해 국민이 올린 모든 글을 모두 데이터화하여 분석하여, 국민의 청원을 과학적으로 분석합니다. 특히, 국민 청원 글을 단어 단위로 분석하여, 국민의 관심이 집중되는 키워드와 키워드 간의 관계 네트워크,  더 나아가 분류된 분야별 단위의 키워드를 분석하여, 국민 청원의 단순한 통계가 아닌, 국민의 글 전체를 포괄하는 단어 수준의 분석을 수행합니다. 
 
