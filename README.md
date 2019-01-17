@@ -1,9 +1,15 @@
-<h1>  National-Petition </h1>
+<h1 align="center"> 청와대 국민청원 및 제안 목록으로부터 국민의 생각 알아보기 </h1>
 
-[국민청원 분석 보고서](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)
+![COM LAB LOGO](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546608400699_13.png)
 
+이 프로젝트의 1버전 결과물인 분석 보고서 : [국민청원 분석 보고서](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)
 
-[국민청원 사이트](https://www1.president.go.kr/petitions) 분석에 설정과 코드에 대한 간단한 설명을 진행합니다.
+ 문재인 정부에서는 국민과의 소통을 통하여 국정에 반영하고자 청와대 홈페이지에 국민소통광장을 마련하였습니다. 국민소통광장의 ‘[국민청원 및 제안](https://www1.president.go.kr/petitions)’에서는 국민 누구나 청원을 올릴 수 있으며, 청와대로부터 답변을 받을 수 있습니다. 2019년 1월 1일 현재, 371,229개의 청원이 있으며, 본 연구에서는 웹 크롤링(web crawling)을 통해 국민이 올린 모든 글을 모두 데이터화하여 분석하여, 국민의 청원을 과학적으로 분석합니다. 특히, 국민 청원 글을 단어 단위로 분석하여, 국민의 관심이 집중되는 키워드와 키워드 간의 관계 네트워크,  더 나아가 분류된 분야별 단위의 키워드를 분석하여, 국민 청원의 단순한 통계가 아닌, 국민의 글 전체를 포괄하는 단어 수준의 분석을 수행합니다. 
+
+ 국민청원 게시판의 모든 글은 청와대의 관리를 받아 청원과 관련되지 않은 글은 삭제되거나, 주제에 맞지 않은 글을 주제에 맞게 재 분류됩니다. 이러한 면에서 국민청원 데이터는 국민의 의견을 분석하기에 용이한 장점을 가지고 있습니다. 국민의 생각이 국정에 더 깊이 반영하는 것입니다. 국민청원의 모든 내용을 정부에서 검토하지 않을 것입니다. 하지만 국민들의 뜻을 요약하고 한 눈에 볼 수 있다면 충분히 정부 측에서도 일반 국민들의 뜻을 알 수 있을 것입니다. 또한 4차산업혁명, 인공지능 등이 실질적으로 우리의 삶에 어떠한 영향을 끼칠 수 있는지를 보여주며 대한민국의 미래 발전에 크게 이바지할 기회라고 생각합니다.
+
+ 인공지능 자연어처리를 통하여 글의 내용을 파악하는 연구는 다양한 분야에서 수행되어 왔으며, 기계학습 및 인공지능의 발전과 함께 많은 응용분야에 적용되고 있습니다. 그러나 아직까지 자연어처리를 통한 연구는 데이터의 수집이 용이한 특정분야에 한정 돼있으며, 특히 정치분야에는 아직 활발히 진행되지 못하고 있다. 그러나, 이번 국민소통광장을 통하여 본 연구소는 양질의 데이터를 확보하여, 정치분야의 연구를 통해 국민의 소리에 더 기울일 수 있는 기회를 제공하는 것이 이번 연구의 목적 중 하나라고 할 수 있습니다다. 국민 청원 데이터는 첫째 청와대의 관리를 받고 있기에(데이터 전처리) 양질의 데이터 확보의 커다란 장점을 갖고 있습니다. 또한 국민의 추천수를 통해 글의 파급력이나 국민의 의견(동의)을 과학적으로 분석할 수 있는 기회를 제공합니다. 마지막으로 주제별/ 분야별로 청원이 분류되어 있어 분야별 분석을 용이하게 할 뿐 아니라 추후 지도학습 (supervised learning)도 고려할 수 있습니다. 
+
 
 ## Petition Data
 국민청원을 분석하기 위해 국민청원 사이트를 [크롤링한 데이터](https://www.dropbox.com/s/4q5neb9ngdhfg8y/petition_data_all.csv?dl=0)를 다운로드합니다.
@@ -54,7 +60,7 @@ git clone https://github.com/newhiwoong/National-Petition.git
 ## Required package
 기본적으로 ANACONDA 환경에 jupyter notebook에서 진행합니다. 이를 위해 [ANACONDA 설치](https://www.anaconda.com/download/) 및 환경 설정이 필수적으로 필요합니다.
 
-그리고 주로 [KoNLPy](http://konlpy.org/en/latest/)를 많이 사용하는데 이를 위해 [Java](https://www.java.com/ko/download/) 설치 및 환경설정이 필요합니다. 
+그리고 주로 [KoNLPy](http://konlpy.org/en/latest/)를 많이 사용하는데 이를 위해 [Java 설치](https://www.java.com/ko/download/) 및 환경설정이 필요합니다. 윈도우 사용자의 경우  [KoNLPy 설치](https://konlpy-ko.readthedocs.io/ko/v0.4.3/install/) 문서를 따라 설치를 하신 후 아래 내용을 진행하시길 바랍니다.
 
 이후 필요한 내용은 [Installation Code](https://github.com/newhiwoong/National-Petition/blob/master/installation_code.ipynb)를 실행하시면 필요한 Package들이 설치됩니다.
 
