@@ -6,7 +6,7 @@
 
 > [국민청원 및 제안](https://www1.president.go.kr/petitions) 목록을 분석하여 국민의 생각을 알아보는 프로젝트
 
-*링크를 클릭하시면 더 자세한 분석 결과를 확인할 수 있습니다 : [Report](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)*
+링크를 클릭하시면 더 자세한 분석 결과를 확인할 수 있습니다 : [Report](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)
 
 ## Introduction
 
@@ -59,8 +59,27 @@ git clone https://github.com/newhiwoong/National-Petition.git
   |  |-Word_Cloud.ipynb                    #브리핑한 청원에 대한 워드클라우드를 만드는 코드
   |  |-briefing.csv                        #브리핑한 청원을 크롤링한 CSV 파일
   |  |-crawling.ipynb                      #브리핑한 청원을 크롤링하는 코드
-  |....
+  |-National-Petition-Important-Keywords   #중요 키워드를 분석하여 국민의 뜻 알아보기
+  |  |-README.md                           #중요 키워드를 분석하기를 설명하는 문서
+  |-National--Thinking                     #청원의 추천수별 키워드를 보며 국민의 관심사 분석
+  |  |-README.md                           #청원의 추천수별 키워드를 보며 국민의 관심사 분석에 대해서 분석을 설명하는 문서
+  |  |-Word_Cloud.ipynb                    #추천수별 워드클라우드를 만드는 코드
+  |  |-briefing.csv                        #브리핑한 청원을 크롤링한 CSV 파일
+  |  |-graph.ipynb                         #어떤 경우에 추천이 많은지를 분석하는 그래프를 제작하는 코드
+  |-National-Petition-Network              #국민 청원에서 등장하는 키워드의 네트워크를 제작
+  |  |-README.md                           #키워드 네트워크를 설명하는 문서
+  |-Word-Cloud                             #분야별, 월별 키워드의 워드클라우드 제작
+  |  |-Birthstone                          #월별 워드클라우드 이미지
+  |  |  |-*.png                            #해당하는 월에 대한 워드클라우드
+  |  |-img                                 #분야별 워드클라우드 이미지
+  |  |  |-*.png                            #해당하는 분야에 대한 워드클라우드
+  |  |-README.md                           #워드클라우드에 대해 설명하는 문서
+  |  |-Word_Cloud.ipynb                    #분야별 워드클라우드를 제작하는 코드
+  |  |-Word_Cloud_month.ipynb              #월별 워드클라우드를 제작하는 코드
+  |-LICENSE                                #Apache License 2.0
+  |-README.md                              #이 문서
   |-REPORT_V1.md                           #국민청원을 분석한 내용
+  |-installation_code.ipynb                #필요한 페키지를 설치하는 코드
 ```
 
 ## 👨‍💻 Required package
@@ -74,7 +93,10 @@ git clone https://github.com/newhiwoong/National-Petition.git
 ```
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
+sudo apt-get install fonts-nanum-coding
+```
 
+```
 pip install nltk
 pip install konlpy
 pip install wordcloud
@@ -82,6 +104,7 @@ pip install urllib
 pip install bs4
 pip install multiprocessing
 ```
+
 
 ## 📝 Todo list
 청원 분석에 대해 제작할 코드와 문서들입니다.
@@ -94,12 +117,12 @@ pip install multiprocessing
 - [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/Government-Thinking) 정부의 생각 알아보기 
 - [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/Important-Keywords) 국민청원 중요 키워드 분석 
 - [x] [📗](https://github.com/newhiwoong/National-Petition) 국민청원 게시판 분석 내용 
-- [ ] 🔨 영어 키워드 찾기 
-- [ ] 🔨 청원 분류 
-- [ ] 🔨 비슷한 청원 찾기 
-- [ ] 🔨 강화된 네트워크 제작
-- [ ] 🔒 국민청원과 지지율의 상관관계 찾기 
-- [ ] 🔒 국민의 뜻과 정부의 생각과 괴리 찾기 
-- [ ] 🔒 통합 웹 사이트 제작
-- [ ] 🔒 해석하는 인공지능 제작
-- [ ] 🔒 루머 청원 찾기
+- [ ] [🔨]() 영어 키워드 찾기 
+- [ ] [🔨]() 청원 분류 
+- [ ] [🔨]() 비슷한 청원 찾기 
+- [ ] [🔨]() 강화된 네트워크 제작
+- [ ] [🔒]() 국민청원과 지지율의 상관관계 찾기 
+- [ ] [🔒]() 국민의 뜻과 정부의 생각과 괴리 찾기 
+- [ ] [🔒]() 통합 웹 사이트 제작
+- [ ] [🔒]() 해석하는 인공지능 제작
+- [ ] [🔒]() 루머 청원 찾기
