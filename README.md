@@ -1,6 +1,15 @@
-# [국민청원으로 국민의 생각 알아보기](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md) 
+# National-Petition
+
+[https://img.shields.io/badge/National%20Petition-Stargazers-yellow.svg](https://github.com/newhiwoong/National-Petition/stargazers)
+[https://img.shields.io/badge/license-Apache-red.svg](https://github.com/newhiwoong/National-Petition/blob/master/LICENSE)
+
+> 국민청원 및 제안 목록을 분석하여 국민의 생각을 알아보는 프로젝트
+
+Follow the link for more information : [Report](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md) 
 
 #### *Using Python and Jupyter Notebook*
+
+## Introduction
 
  문재인 정부에서는 국민과의 소통을 통하여 국정에 반영하고자 청와대 홈페이지에 국민소통광장을 마련하였습니다. 국민소통광장의 ‘[국민청원 및 제안](https://www1.president.go.kr/petitions)’에서는 국민 누구나 청원을 올릴 수 있으며, 청와대로부터 답변을 받을 수 있습니다. 2019년 1월 1일 현재, 371,229개의 청원이 있으며, 본 연구에서는 웹 크롤링(web crawling)을 통해 국민이 올린 모든 글을 모두 데이터화하여 분석하여, 국민의 청원을 과학적으로 분석합니다. 특히, 국민 청원 글을 단어 단위로 분석하여, 국민의 관심이 집중되는 키워드와 키워드 간의 관계 네트워크,  더 나아가 분류된 분야별 단위의 키워드를 분석하여, 국민 청원의 단순한 통계가 아닌, 국민의 글 전체를 포괄하는 단어 수준의 분석을 수행합니다. 
 
@@ -62,7 +71,7 @@ git clone https://github.com/newhiwoong/National-Petition.git
 
 이후 필요한 내용은 [Installation Code](https://github.com/newhiwoong/National-Petition/blob/master/installation_code.ipynb)를 실행하시면 필요한 Package들이 설치됩니다.
 
-### Install Terminal 
+### 👩‍💻 Install Terminal 
 ```
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
@@ -76,7 +85,7 @@ pip install multiprocessing
 ```
 
 ## 📝 Todo list
-청원 분석에 대해 제작할 코드(💻)와 문서(📗)들입니다.
+청원 분석에 대해 제작할 코드와 문서들입니다.
 
 - [x] 국민청원 게시판 크롤링 [💻](https://github.com/newhiwoong/National-Petition/tree/master/Data)
 - [x] 국민청원 데이터 분석 [💻](https://github.com/newhiwoong/National-Petition/tree/master/Data-Analysis)
