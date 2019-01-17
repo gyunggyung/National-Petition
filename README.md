@@ -1,14 +1,15 @@
 # National-Petition
 
 [![Stargazers](https://img.shields.io/badge/National--Petition-Stargazers-yellow.svg)](https://github.com/newhiwoong/National-Petition/stargazers)
-[![license](https://img.shields.io/badge/license-Apache%202.0-red.svg)](https://github.com/newhiwoong/National-Petition/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-Apache%202.0-red.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![result](https://img.shields.io/badge/result-Report-blue.svg)](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)
+[![Contents](https://img.shields.io/badge/contents-web-brightgreen.svg)](https://www1.president.go.kr/petitions)
 
-> [국민청원 및 제안](https://www1.president.go.kr/petitions) 목록을 분석하여 국민의 생각을 알아보는 프로젝트
+> 국민청원 및 제안 목록을 분석하여 국민의 생각을 알아보는 프로젝트
 
-링크를 클릭하시면 더 자세한 분석 결과를 확인할 수 있습니다 : [Report](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)
+*링크를 클릭하시면 더 자세한 분석 결과를 확인할 수 있습니다 : [Report](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)*
 
-## Introduction
+## 📖 Introduction
 
  문재인 정부에서는 국민과의 소통을 통하여 국정에 반영하고자 청와대 홈페이지에 국민소통광장을 마련하였습니다. 국민소통광장의 ‘국민청원 및 제안’에서는 국민 누구나 청원을 올릴 수 있으며, 청와대로부터 답변을 받을 수 있습니다. 2019년 1월 1일 현재, 371,229개의 청원이 있으며, 본 연구에서는 웹 크롤링(web crawling)을 통해 국민이 올린 모든 글을 모두 데이터화하여 분석하여, 국민의 청원을 과학적으로 분석합니다. 특히, 국민 청원 글을 단어 단위로 분석하여, 국민의 관심이 집중되는 키워드와 키워드 간의 관계 네트워크, 더 나아가 분류된 분야별 단위의 키워드를 분석하여, 국민 청원의 단순한 통계가 아닌, 국민의 글 전체를 포괄하는 단어 수준의 분석을 수행합니다. 
 
