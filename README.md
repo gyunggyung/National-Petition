@@ -7,7 +7,7 @@
 
 > 국민청원 및 제안 목록을 분석하여 국민의 생각을 알아보는 프로젝트
 
-*링크를 클릭하시면 더 자세한 분석 결과를 확인할 수 있습니다 : [Report](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)*
+*링크를 클릭하시면 더 자세한 분석 결과를 확인할 수 있습니다 : [보고서](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)*
 
 ## 📖 Introduction
 
@@ -90,7 +90,7 @@ git clone https://github.com/newhiwoong/National-Petition.git
 
 이후 필요한 내용은 [Installation Code](https://github.com/newhiwoong/National-Petition/blob/master/installation_code.ipynb)를 실행하시면 필요한 Package들이 설치됩니다.
 
-### 👩‍💻 Dependency Build Instructions:
+### 👩‍💻 Dependency Build Instructions
 ```
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
