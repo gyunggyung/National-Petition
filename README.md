@@ -138,12 +138,12 @@ pip install multiprocessing
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_5A66E0DE01CD75EDED299102E2F6453BEBCD300B9977BD6F9719ECE5E21E2C90_1548070137676_image.png)
 
 ### 🌐 네트워크
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_5A66E0DE01CD75EDED299102E2F6453BEBCD300B9977BD6F9719ECE5E21E2C90_1548073151578_image.png)
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_5A66E0DE01CD75EDED299102E2F6453BEBCD300B9977BD6F9719ECE5E21E2C90_1548073448626_image.png)
 
 ### 📉 그래프
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_5A66E0DE01CD75EDED299102E2F6453BEBCD300B9977BD6F9719ECE5E21E2C90_1548070226604_image.png)
 
-### ✨ 중요키워드 갑질
+### ✨ 중요키워드 *갑질*
 
 #### 네트워크
 
