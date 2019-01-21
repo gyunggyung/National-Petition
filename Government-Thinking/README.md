@@ -7,20 +7,20 @@
  [데이터 분석 code](https://github.com/newhiwoong/National-Petition/blob/master/Government-Thinking/Data_Analysis.ipynb)
  
  먼저 브리핑 즉, 정부가 답변한 청원들로 필터링을 진행합니다. 
-```
+``` python
 df = df[df["progress"]=="브리핑 "]
 df
 ```
 
  [데이터 분석](https://github.com/newhiwoong/National-Petition/tree/master/Data-Analysis)에서와 같이 분야별 데이터 수를 확인합니다.
 
-```
+``` python
 i= 0
 fied_names_num(df[df["count"]>=i],names)
 ```
 
 ### 분야별 브리핑 수 
-```
+``` 
 보건복지  :  3
 반려동물  :  3
 육아/교육  :  2
@@ -39,7 +39,7 @@ all :  68
 ```
 
 ### 월별 브리핑 수 
-```
+``` 
 2017-09  :  3
 2017-11  :  3
 2017-12  :  2
@@ -63,13 +63,13 @@ all :  68
 
 ### 국민의 청원들로 워드클라우드
 국민의 청원들만 가지고 워드클라우드를 진행합니다. 
-```
+``` python
 def make_cloud(category, png_name=0,state="no", background_color_n='white', max_font_size_n = 40):
     text = list(df["petition_overview"])
     text = ' '.join(text)
     ....
 ```
-```
+``` python
 keyword = make_cloud("기타", png_name="tr.JPG",state="img",max_font_size_n = 100,background_color_n='black')0
 ```
 
@@ -77,14 +77,14 @@ keyword = make_cloud("기타", png_name="tr.JPG",state="img",max_font_size_n = 1
 
 ### 답변을 가지고 워드클라우드를 진행합니다.
 답변을 가지고 워드클라우드를 진행합니다.  
-```
+``` python
 def G_make_cloud(category, png_name=0,state="no", background_color_n='white', max_font_size_n = 40):
     text = list(df["petition_answer"])
     text = ' '.join(text)
     ....
 ```
 
-```
+``` python
 keyword = G_make_cloud("기타", png_name="tr2.JPG",state="img",max_font_size_n = 100,background_color_n='black')
 ```
 
