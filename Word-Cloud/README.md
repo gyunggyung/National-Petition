@@ -12,12 +12,12 @@
 먼저 konlpy 사용을 위해서 자바 설치와 환경설정이 필요합니다.
 
 ubuntu
-```
+``` python
 sudo apt install openjdk-8-jdk
 ```
 
 아래 명령어로 필요한 페키지를 설치합니다.
-```
+``` python
 !pip install nltk
 !pip install konlpy
 !pip install wordcloud
@@ -27,7 +27,7 @@ sudo apt install openjdk-8-jdk
 
 matplotlib의 경우 한글이 깨지는 현상이 발생합니다. 따라서 한글 글골 설정이 필요합니다.
 
-```
+``` python
     font_name = font_manager.FontProperties(fname="/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf").get_name()
     rc('font', family=font_name)
     %matplotlib inline
@@ -52,13 +52,13 @@ matplotlib의 경우 한글이 깨지는 현상이 발생합니다. 따라서 �
 
 위에서
 
-```
+``` python
 font_path="/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf",
 ```
 
 이 2개 부분을 자신의 한글 폰트경로로 바꿔주셔야합니다.
 
-```
+``` python
 /usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf
 ```
 
@@ -67,7 +67,7 @@ mac에서 하는 방법 : https://pinkwink.kr/990
 ## 예시
 원하는 부분에 대해서 워드클라우드를 진행합니다.
 
-```
+``` python
 make_cloud("농산어촌")
 ```
 
