@@ -2,12 +2,12 @@
 
 [![Stargazers](https://img.shields.io/badge/National--Petition-Stargazers-yellow.svg)](https://github.com/newhiwoong/National-Petition/stargazers)
 [![license](https://img.shields.io/badge/license-Apache%202.0-red.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![result](https://img.shields.io/badge/result-Report-blue.svg)](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)
-[![Contents](https://img.shields.io/badge/contents-web-brightgreen.svg)](https://www1.president.go.kr/petitions)
+[![results](https://img.shields.io/badge/results-Report-blue.svg)](https://paper.dropbox.com/doc/National-Petition-Analysis--AWBChEBfGCjv1j~TH2oJMUKbAg-RYdzoQNc8lAHVcDucJu1K)
+[![data](https://img.shields.io/badge/data-web-brightgreen.svg)](https://www1.president.go.kr/petitions)
 
 > 국민청원 및 제안 목록을 분석하여 국민의 생각을 알아보는 프로젝트
 
-*링크를 클릭하시면 더 자세한 분석 결과를 확인할 수 있습니다 : [보고서](https://github.com/newhiwoong/National-Petition/blob/master/REPORT_V1.md)*
+*링크를 클릭하시면 더 자세한 분석 결과를 확인할 수 있습니다 : [보고서](https://paper.dropbox.com/doc/National-Petition-Analysis--AWBChEBfGCjv1j~TH2oJMUKbAg-RYdzoQNc8lAHVcDucJu1K)*
 
 ## 📖 Introduction
 
@@ -91,12 +91,15 @@ git clone https://github.com/newhiwoong/National-Petition.git
 이후 필요한 내용은 [Installation Code](https://github.com/newhiwoong/National-Petition/blob/master/installation_code.ipynb)를 실행하시면 필요한 Package들이 설치됩니다.
 
 ### 👩‍💻 Dependency Build Instructions
+
+#### Ubuntu
 ```
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 sudo apt-get install fonts-nanum-coding
 ```
 
+#### All
 ```
 pip install nltk
 pip install konlpy
