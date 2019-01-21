@@ -11,7 +11,7 @@
  국민청원 데이터를 분석하기 위해 먼저 크롤링을 진행합니다.
 
 ### 일반 크롤링
-```
+``` python
 csvFile = open("petition1.csv", 'w', encoding='UTF-8')
 writer = csv.writer(csvFile)
 writer.writerow(["num","category","start-days","end-days","person","progress","title","count","petition_overview"])
@@ -21,7 +21,7 @@ csvFile.close()
 ```
 
 ### 멀티코어 크롤링
-```
+``` python
 csvFile = open("petition.csv", 'w', encoding='UTF-8')
 writer = csv.writer(csvFile)
 writer.writerow(["num","category","start-days","end-days","person","progress","title","count","petition_overview"])
@@ -41,14 +41,14 @@ csvFile.close()
 
  필터링을 하기 전에 count 즉 참여인원은 int형이 아닌 문자로 이뤄져 있습니다. 이를 몇 명이 참여를 했는지 알아보기 위해서 필터링을 진행합니다.
 
-```
+``` python
 def find_int(count):
     i = (re.findall(r'\d+', count))
     ints = int(''.join(map(str, i)))
     return ints
 ```
  아래와 같이 map 함수를 사용해서 int형으로 변환시킵니다.
-```
+``` python
 df["count"] = df["count"].map(find_int)
 df
 ```
