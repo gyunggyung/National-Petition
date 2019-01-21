@@ -92,14 +92,14 @@ git clone https://github.com/newhiwoong/National-Petition.git
 
 ### 👩‍💻 Dependency Build Instructions
 
-#### Ubuntu
+#### Ubuntu User
 ```
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 sudo apt-get install fonts-nanum-coding
 ```
 
-#### All
+#### All User
 ```
 pip install nltk
 pip install konlpy
