@@ -132,6 +132,7 @@ pip install multiprocessing
 - [ ] [🔒]() 루머 청원 찾기
 
 ## 📑 Example
+ 국민청원 분석에서 나오는 예시들입니다.
 
 ### ☁️ 워드클라우드
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_5A66E0DE01CD75EDED299102E2F6453BEBCD300B9977BD6F9719ECE5E21E2C90_1548070137676_image.png)
@@ -147,7 +148,6 @@ pip install multiprocessing
 #### 네트워크
 
 ![전체 네트워크](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546835696766_1.JPG)
-![갑질과 직접적인 네트워크](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546835696773_2.JPG)
 
 #### 워드클라우드
 
@@ -178,11 +178,11 @@ pip install multiprocessing
 #### 해석
  갑질의 경우 국민, 병원, 업체, 여성, 승무원, 치료, 의사, 피해자 등으로 병원 업체에서 의사가 치료를 가지고 갑질을 했거나 승무원이 갑질을 한 것인지 당한 것인지 그리고 어떠한 업체에서 갑질이 있었던 것으로 예상됩니다. 갑질과 직접적인 네트워크를 보면 병원, 승무원, 업체로 이 3가지 키워드에 어떠한 갑질이 있었다고 유추할 수 있습니다.
 
-https://www1.president.go.kr/petitions/454533
+[상습폭행을 저지른 제주대학교병원 H교수를 처벌해주세요](https://www1.president.go.kr/petitions/454533)
 
-https://www1.president.go.kr/petitions/196894
+[대한항공 조현민 전무의 갑질을 엄중 처벌해야합니다.](https://www1.president.go.kr/petitions/196894)
 
-https://www1.president.go.kr/petitions/269098
+[대한항공 인턴제도 갑질을 고발합니다.](https://www1.president.go.kr/petitions/269098)
 
  그리고 실제로 위에 대기업 키워드와 같이 병원에서 교수 의사의 갑질, 조현민 전무가 하청업체들에게 한 갑질, 항공사의 승무원 인턴제도 갑질 등 위에 관련된 키워드들의 갑질이 실제로 발생했습니다. 이를 통해 네트워크, 워드클라우드, 탑 키워드 분석에 대한 중요성을 더욱 증명할 수 있다고 생각합니다. 실제로 30만 개가 넘어가는 청원을 전부 읽기에는 무리가 있으나 관심 있는 키워드를 가지고 네트워크, 워드클라우드, 탑 키워드 분석을 통해서 짧으면서 쉽게 국민들이 생각하는 문제들을 알 수 있습니다.
 
