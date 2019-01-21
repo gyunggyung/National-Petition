@@ -5,7 +5,7 @@
 추천 수별로 [워드클라우드](https://github.com/newhiwoong/National-Petition/tree/master/Word-Cloud) 그리고 추천 수별 그래프를 통한 분석을 진행합니다.
 
 ### 추천수 0개인 청원에 대한 워드클라우드
-```
+``` python
 keyword0 = make_cloud(df[df["count"]==0],"기타", png_name="1.jpg",state="img",max_font_size_n = 100,background_color_n='black')
 
 ```
@@ -13,7 +13,7 @@ keyword0 = make_cloud(df[df["count"]==0],"기타", png_name="1.jpg",state="img",
 ![](https://github.com/newhiwoong/National-Petition/blob/master/National--Thinking/img/0.png)
 
 ### 추천수 21~40개인 청원에 대한 워드클라우드
-```
+``` python
 keyword5 = make_cloud(df[(df["count"]>=21) & (df["count"]<=40)],"기타", png_name="6.JPG",state="img",max_font_size_n = 100,background_color_n='black')
 ```
 
@@ -27,7 +27,7 @@ keyword5 = make_cloud(df[(df["count"]>=21) & (df["count"]<=40)],"기타", png_na
 
 ### 추천수가 100개 이상인 키워드들에 대한 그래프 제작 
 
-```
+``` python
 font_name = fm.FontProperties(fname = "/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf").get_name()
 mpl.rc('font', family = font_name)
 
