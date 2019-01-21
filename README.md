@@ -138,7 +138,7 @@ pip install multiprocessing
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_5A66E0DE01CD75EDED299102E2F6453BEBCD300B9977BD6F9719ECE5E21E2C90_1548070137676_image.png)
 
 ### 🌐 네트워크
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546416349297_image.png)
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_5A66E0DE01CD75EDED299102E2F6453BEBCD300B9977BD6F9719ECE5E21E2C90_1548073151578_image.png)
 
 ### 📉 그래프
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_5A66E0DE01CD75EDED299102E2F6453BEBCD300B9977BD6F9719ECE5E21E2C90_1548070226604_image.png)
@@ -147,7 +147,7 @@ pip install multiprocessing
 
 #### 네트워크
 
-![전체 네트워크](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546835696766_1.JPG)
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_5A66E0DE01CD75EDED299102E2F6453BEBCD300B9977BD6F9719ECE5E21E2C90_1548073035807_image.png)
 
 #### 워드클라우드
 
