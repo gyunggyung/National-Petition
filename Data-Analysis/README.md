@@ -9,7 +9,7 @@
 [월별 participants.csv 제작](https://github.com/newhiwoong/National-Petition/blob/master/Data-Analysis/Data_Analysis_month.ipynb)
 
 ### 추천 수별로 분야별 청원 수 찾는 함수
-```
+``` python
 def fied_names_num(df, names):
     lists = []
     for name in names:
@@ -23,7 +23,7 @@ def fied_names_num(df, names):
 ```
 
 ### 추천 숫자 별로 청원 찾기 제작
-```
+``` python
 for i in range(400000):
     lists = fied_names_num(df[df["count"]>=i],names)
     for j,name in enumerate(names):
@@ -41,7 +41,7 @@ for i in range(400000):
 
 ### 정규화
  시작 부분이 1이 되도록 정규화를 진행합니다. 
-```
+``` python
 from sklearn import preprocessing
 
 x = df.values #returns a numpy array
@@ -52,7 +52,7 @@ dfs
 ```
 ### 그래프 제작
  원하는 추천 수까지의 그래프를 제작합니다.  
-```
+``` python
 i = 10
 plt.figure(); dfs4[:i].plot(); plt.figure(); dfs[:i].plot();
 
