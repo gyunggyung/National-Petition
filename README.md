@@ -4,6 +4,7 @@
 [![license](https://img.shields.io/badge/license-Apache%202.0-red.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![results](https://img.shields.io/badge/results-Report-blue.svg)](https://paper.dropbox.com/doc/National-Petition-Analysis--AWBChEBfGCjv1j~TH2oJMUKbAg-RYdzoQNc8lAHVcDucJu1K)
 [![data](https://img.shields.io/badge/data-web-brightgreen.svg)](https://www1.president.go.kr/petitions)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnewhiwoong%2FNational-Petition.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnewhiwoong%2FNational-Petition?ref=badge_shield)
 
 > 국민청원 및 제안 목록을 분석하여 국민의 생각을 알아보는 프로젝트
 
@@ -82,6 +83,9 @@ git clone https://github.com/newhiwoong/National-Petition.git
   |-REPORT_V1.md                           #국민청원을 분석한 내용
   |-installation_code.ipynb                #필요한 페키지를 설치하는 코드
 ```
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnewhiwoong%2FNational-Petition.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnewhiwoong%2FNational-Petition?ref=badge_large)
 
 ## 👨‍💻 System requirements
 기본적으로 ANACONDA 환경에 jupyter notebook에서 진행합니다. 이를 위해 [ANACONDA 설치](https://www.anaconda.com/download/) 및 환경 설정이 필수적으로 필요합니다.
