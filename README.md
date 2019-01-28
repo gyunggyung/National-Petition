@@ -186,7 +186,7 @@ pip install multiprocessing
 
  그리고 실제로 위에 대기업 키워드와 같이 병원에서 교수 의사의 갑질, 조현민 전무가 하청업체들에게 한 갑질, 항공사의 승무원 인턴제도 갑질 등 위에 관련된 키워드들의 갑질이 실제로 발생했습니다. 이를 통해 네트워크, 워드클라우드, 탑 키워드 분석에 대한 중요성을 더욱 증명할 수 있다고 생각합니다. 실제로 30만 개가 넘어가는 청원을 전부 읽기에는 무리가 있으나 관심 있는 키워드를 가지고 네트워크, 워드클라우드, 탑 키워드 분석을 통해서 짧으면서 쉽게 국민들이 생각하는 문제들을 알 수 있습니다.
 
-## License
+## ©️ License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnewhiwoong%2FNational-Petition.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnewhiwoong%2FNational-Petition?ref=badge_large)
 
 
