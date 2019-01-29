@@ -111,7 +111,7 @@ pip install multiprocessing
 
 
 ## 📝 Todo list
-청원 분석에 대해 제작할 코드와 문서들입니다.
+청원 분석에 대해 제작할 코드와 문서들입니다. (밑에 Emoji를 클릭하면 해당하는 Github page로 이동합니다)
 
 - [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/Data) 국민청원 게시판 크롤링 
 - [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/Data-Analysis) 국민청원 데이터 분석 
