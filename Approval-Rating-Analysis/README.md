@@ -1,8 +1,6 @@
 # National-Petition-Approval-Rating-Analysis
 
-문재인 대통령의 지지율과 국민청원간에 상간관계를 분석합니다.
-
-
+문재인 대통령의 지지율과 국민청원간에 상간관계를 분석합니다. **[관련 포스팅](https://newhiwoong.github.io/%EA%B5%AD%EB%AF%BC%EC%B2%AD%EC%9B%90/%EB%AC%B8%EC%9E%AC%EC%9D%B8-%EB%8C%80%ED%86%B5%EB%A0%B9-%EC%A7%80%EC%A7%80%EC%9C%A8-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%85%8B-CSV)**
 
 ## 지지율
 
