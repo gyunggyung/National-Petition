@@ -125,7 +125,7 @@ pip install multiprocessing
 - [ ] [🔨]() 청원 분류 
 - [ ] [🔨]() 비슷한 청원 찾기 
 - [ ] [🔨]() 강화된 네트워크 제작
-- [ ] [🔒]() 국민청원과 지지율의 상관관계 찾기 
+- [ ] [🔒](https://github.com/newhiwoong/National-Petition/tree/master/Approval-Rating-Analysis) 국민청원과 지지율의 상관관계 찾기 
 - [ ] [🔒]() 국민의 뜻과 정부의 생각과 괴리 찾기 
 - [ ] [🔒]() 통합 웹 사이트 제작
 - [ ] [🔒]() 해석하는 인공지능 제작
