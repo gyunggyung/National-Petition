@@ -192,6 +192,6 @@ pip install multiprocessing
 
 ## 🤝 Connect
 ```
-# github : https://github.com/newhiwoong
-# email  : newhiwoong@gmail.com
+github : https://github.com/newhiwoong
+email  : newhiwoong@gmail.com
 ```
