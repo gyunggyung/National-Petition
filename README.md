@@ -2,6 +2,7 @@
 [![Stargazers](https://img.shields.io/badge/National--Petition-Stargazers-yellow.svg)](https://github.com/newhiwoong/National-Petition/stargazers)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnewhiwoong%2FNational-Petition.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnewhiwoong%2FNational-Petition?ref=badge_shield)
 [![license](https://img.shields.io/badge/license-Apache%202.0-red.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![GitHub stars](https://img.shields.io/github/stars/newhiwoong/National-Petition?&color=ff86b4)](https://github.com/newhiwoong/National-Petition/stargazers)
 [![results](https://img.shields.io/badge/results-Report-blue.svg)](https://paper.dropbox.com/doc/National-Petition-Analysis--AWBChEBfGCjv1j~TH2oJMUKbAg-RYdzoQNc8lAHVcDucJu1K)
 [![data](https://img.shields.io/badge/data-web-lightgrey.svg)](https://www1.president.go.kr/petitions)
 
