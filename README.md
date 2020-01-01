@@ -154,7 +154,7 @@ pip install multiprocessing
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_6BA2A63FD25F3FE0CBB3C54FF3212310B170B7FB25E38BF989986B9924C49C1E_1546789797423_.png)
 
-
+ 
 #### Top 키워드
 ```
 {'국민': 244654,
