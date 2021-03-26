@@ -89,7 +89,7 @@ git clone https://github.com/gyunggyung/National-Petition.git
 
 그리고 주로 [KoNLPy](http://konlpy.org/en/latest/)를 많이 사용하는데 이를 위해 [Java 설치](https://www.java.com/ko/download/) 및 환경설정이 필요합니다. 윈도우 사용자의 경우  [KoNLPy 설치](https://konlpy-ko.readthedocs.io/ko/v0.4.3/install/) 문서를 따라 설치를 하신 후 아래 내용을 진행하시길 바랍니다.
 
-이후 필요한 내용은 [Installation Code](https://github.com/newhiwoong/National-Petition/blob/master/installation_code.ipynb)를 실행하시면 필요한 Package들이 설치됩니다.
+이후 필요한 내용은 [Installation Code](https://github.com/gyunggyung/National-Petition/blob/master/installation_code.ipynb)를 실행하시면 필요한 Package들이 설치됩니다.
 
 ### 👩‍💻 Dependency Build Instructions
 
@@ -114,19 +114,19 @@ pip install multiprocessing
 ## 📝 Todo list
 청원 분석에 대해 제작할 코드와 문서들입니다. (밑에 Emoji를 클릭하면 해당하는 Github page로 이동합니다)
 
-- [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/Data) 국민청원 게시판 크롤링 
-- [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/Data-Analysis) 국민청원 데이터 분석 
-- [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/Word-Cloud) 국민청원 워드클라우드 제작 
-- [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/Network) 국민청원 네트워크 제작 
-- [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/National--Thinking) 국민의 생각 알아보기 
-- [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/Government-Thinking) 정부의 생각 알아보기 
-- [x] [💻](https://github.com/newhiwoong/National-Petition/tree/master/Important-Keywords) 국민청원 중요 키워드 분석 
-- [x] [📗](https://github.com/newhiwoong/National-Petition) 국민청원 게시판 분석 내용 
+- [x] [💻](https://github.com/gyunggyung/National-Petition/tree/master/Data) 국민청원 게시판 크롤링 
+- [x] [💻](https://github.com/gyunggyung/National-Petition/tree/master/Data-Analysis) 국민청원 데이터 분석 
+- [x] [💻](https://github.com/gyunggyung/National-Petition/tree/master/Word-Cloud) 국민청원 워드클라우드 제작 
+- [x] [💻](https://github.com/gyunggyung/National-Petition/tree/master/Network) 국민청원 네트워크 제작 
+- [x] [💻](https://github.com/gyunggyung/National-Petition/tree/master/National--Thinking) 국민의 생각 알아보기 
+- [x] [💻](https://github.com/gyunggyung/National-Petition/tree/master/Government-Thinking) 정부의 생각 알아보기 
+- [x] [💻](https://github.com/gyunggyung/National-Petition/tree/master/Important-Keywords) 국민청원 중요 키워드 분석 
+- [x] [📗](https://github.com/gyunggyung/National-Petition) 국민청원 게시판 분석 내용 
 - [ ] [🔨]() 영어 키워드 찾기 
 - [ ] [🔨]() 청원 분류 
 - [ ] [🔨]() 비슷한 청원 찾기 
 - [ ] [🔨]() 강화된 네트워크 제작
-- [ ] [🔒](https://github.com/newhiwoong/National-Petition/tree/master/Approval-Rating-Analysis) 국민청원과 지지율의 상관관계 찾기 
+- [ ] [🔒](https://github.com/gyunggyung/National-Petition/tree/master/Approval-Rating-Analysis) 국민청원과 지지율의 상관관계 찾기 
 - [ ] [🔒]() 국민의 뜻과 정부의 생각과 괴리 찾기 
 - [ ] [🔒]() 통합 웹 사이트 제작
 - [ ] [🔒]() 해석하는 인공지능 제작
