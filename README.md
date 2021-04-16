@@ -1,6 +1,5 @@
 # National-Petition
 [![Stargazers](https://img.shields.io/badge/National--Petition-Stargazers-yellow.svg)](https://github.com/gyunggyung/National-Petition/stargazers)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%gyunggyung%2FNational-Petition.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%gyunggyung%2FNational-Petition?ref=badge_shield)
 [![license](https://img.shields.io/badge/license-Apache%202.0-red.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![GitHub stars](https://img.shields.io/github/stars/gyunggyung/National-Petition?&color=ff86b4)](https://github.com/gyunggyung/National-Petition/stargazers)
 [![results](https://img.shields.io/badge/results-Report-blue.svg)](https://paper.dropbox.com/doc/National-Petition-Analysis--AWBChEBfGCjv1j~TH2oJMUKbAg-RYdzoQNc8lAHVcDucJu1K)
@@ -186,10 +185,6 @@ pip install multiprocessing
 [대한항공 인턴제도 갑질을 고발합니다.](https://www1.president.go.kr/petitions/269098)
 
  그리고 실제로 위에 대기업 키워드와 같이 병원에서 교수 의사의 갑질, 조현민 전무가 하청업체들에게 한 갑질, 항공사의 승무원 인턴제도 갑질 등 위에 관련된 키워드들의 갑질이 실제로 발생했습니다. 이를 통해 네트워크, 워드클라우드, 탑 키워드 분석에 대한 중요성을 더욱 증명할 수 있다고 생각합니다. 실제로 30만 개가 넘어가는 청원을 전부 읽기에는 무리가 있으나 관심 있는 키워드를 가지고 네트워크, 워드클라우드, 탑 키워드 분석을 통해서 짧으면서 쉽게 국민들이 생각하는 문제들을 알 수 있습니다.
-
-## ©️ License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgyunggyung%2FNational-Petition.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgyunggyung%2FNational-Petition?ref=badge_large)
-
 
 ## 🤝 Connect
 ```
